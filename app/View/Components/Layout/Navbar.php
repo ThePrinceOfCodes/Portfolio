@@ -23,6 +23,6 @@ class Navbar extends Component
      */
     public function render()
     {
-        return view('components.layout.navbar');
+        return view('layout.navbar');
     }
 }
