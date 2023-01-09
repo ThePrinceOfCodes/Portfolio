@@ -1,7 +1,24 @@
-<div class="mb-6 flex items-center">
+<div class="mb-6 flex items-center dark:text-white">
     <a
-        href="javascript:void(0)"
-        class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+        href="https://www.facebook.com"
+        class="
+         text-dark
+         hover:bg-primary 
+         hover:border-primary 
+         mr-3 flex 
+         h-8 w-8 
+         items-center 
+         justify-center 
+         rounded-full 
+         border 
+         border-[#E5E5E5] 
+         hover:text-white 
+         sm:mr-4 
+         lg:mr-3 
+         xl:mr-4
+         dark:text-white
+         dark:hover:border-secondary 
+         "
     >
         <svg
         width="8"
@@ -16,7 +33,27 @@
     </a>
     <a
         href="javascript:void(0)"
-        class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+        class="
+            text-dark 
+            dark:text-white 
+            hover:bg-primary 
+            hover:border-primary 
+            mr-3 
+            flex 
+            h-8 
+            w-8 
+            items-center 
+            justify-center 
+            rounded-full 
+            border 
+            border-[#E5E5E5] 
+            hover:text-white 
+            sm:mr-4 
+            lg:mr-3 
+            xl:mr-4
+            dark:text-white
+            dark:hover:border-secondary 
+            "
     >
         <svg
         width="16"
@@ -31,7 +68,27 @@
     </a>
     <a
         href="javascript:void(0)"
-        class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+        class="
+            text-dark 
+            hover:bg-primary 
+            hover:border-primary 
+            mr-3 
+            flex 
+            h-8 
+            w-8 
+            items-center 
+            justify-center 
+            rounded-full 
+            border 
+            border-[#E5E5E5] 
+            hover:text-white 
+            sm:mr-4 
+            lg:mr-3 
+            xl:mr-4
+            dark:text-white
+            dark:hover:border-secondary
+
+        "
     >
         <svg
         width="16"
@@ -46,7 +103,27 @@
     </a>
     <a
         href="javascript:void(0)"
-        class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+        class="
+            text-dark 
+            hover:bg-primary 
+            hover:border-primary 
+            mr-3 
+            flex 
+            h-8 
+            w-8 
+            items-center 
+            justify-center 
+            rounded-full 
+            border 
+            border-[#E5E5E5] 
+            hover:text-white 
+            sm:mr-4 
+            lg:mr-3 
+            xl:mr-4
+            dark:text-white
+            dark:hover:border-secondary
+
+            "
     >
         <svg
         width="14"
