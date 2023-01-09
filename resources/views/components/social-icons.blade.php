@@ -1,6 +1,8 @@
-<div class="mb-6 flex items-center dark:text-white">
+<div {{ $attributes->class(['class="mb-6 flex items-center'])}}">
     <a
         href="https://www.facebook.com"
+        target="_blank"
+
         class="
          text-dark
          hover:bg-primary 
@@ -33,6 +35,8 @@
     </a>
     <a
         href="javascript:void(0)"
+        target="_blank"
+
         class="
             text-dark 
             dark:text-white 
@@ -68,6 +72,8 @@
     </a>
     <a
         href="javascript:void(0)"
+        target="_blank"
+
         class="
             text-dark 
             hover:bg-primary 
@@ -103,6 +109,7 @@
     </a>
     <a
         href="javascript:void(0)"
+        target="_blank"
         class="
             text-dark 
             hover:bg-primary 

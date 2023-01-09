@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <script src="https://apis.google.com/js/platform.js"></script>
 
         <!-- Styles -->
         <style>
@@ -21,8 +22,8 @@
             }
         </style>
     </head>
-    <body class="antialiased text-gray-800 dark:text-gray-200">
-      <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
+    <body class="antialiased text-gray-800 dark:text-white-200 dark:text-white">
+      <div class="min-h-screen bg-gray-100 dark:bg-white-900 pt-24">
         <x-layout.navbar></x-layout.navbar>
 
         {{ $slot }}
