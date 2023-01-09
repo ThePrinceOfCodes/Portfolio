@@ -21,13 +21,13 @@
             }
         </style>
     </head>
-    <body class="antialiased">
-        <!-- ====== Navbar Section Start -->
-<x-layout.navbar></x-layout.navbar>
+    <body class="antialiased text-gray-800 dark:text-gray-200">
+      <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
+        <x-layout.navbar></x-layout.navbar>
 
-{{ $slot }}
-<!-- ====== Navbar Section End -->
+        {{ $slot }}
 
-<footer>footer</footer>
+        <x-layout.footer></x-layout.footer>
+      </div>
     </body>
 </html>
