@@ -11,7 +11,7 @@ class NavbarItem extends Component
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(public string $href)
     {
         //
     }
@@ -23,6 +23,6 @@ class NavbarItem extends Component
      */
     public function render()
     {
-        return view('components.layout.navbar-item');
+        return view('layout.navbar-item');
     }
 }
