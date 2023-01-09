@@ -19,10 +19,10 @@
                         class="w-[48px] lg:w-[64px] hidden dark:inline-block"
                     />
 
-                    <span class="text-xl xl:text-2l font-bold text-[#0c7187] dark:text-white">Portfolio</span>
+                    <span class="text-xl xl:text-2l font-bold text-[#0c7187] dark:text-white">portfolio</span>
                 </a>
             </div>
-            <div class="flex px-4 justify-end items-center w-full">
+            <div class="flex px-4 justify-end items-center w-full ">
                 <div>
                     <x-layout.navbar-item-hamburger
                         @click="navbarOpen = !navbarOpen"
@@ -31,7 +31,7 @@
                     <nav
                         :class="!navbarOpen && 'hidden'"
                         id="navbarCollapse"
-                        class="absolute right-0 top-full bg-white py-5 px-6 z-50 shadow rounded-lg w-full dark:bg-slate-900 dark:text-gray-300 lg:px-0 lg:max-w-full lg:right-4 lg:block lg:static lg:shadow-none"
+                        class="dark:text-white absolute right-0 top-full bg-white py-5 px-6 z-50 shadow rounded-lg w-full dark:bg-slate-900 dark:text-white-300 lg:px-0 lg:max-w-full lg:right-4 lg:block lg:static lg:shadow-none"
                     >
                         <ul class="block lg:flex lg:items-center">
                             @foreach($navigationItems as $item)
@@ -41,6 +41,10 @@
                                     {{$item['label']}}
                                 </x-layout.navbar-item>
                             @endforeach
+
+                            <div class="ml-0 lg:ml-10 xl:ml-16 relative top-1">
+                                <div class="g-ytsubscribe" data-channelid="UC_UMEcP_kF0Z4E6kbxCpV1w" data-layout="default" data-count="default"></div>
+                            </div>
                         </ul>
                     </nav>
                 </div>
