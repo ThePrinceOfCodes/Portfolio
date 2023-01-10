@@ -4,7 +4,7 @@ namespace App\View\Components\home;
 
 use Illuminate\View\Component;
 
-class video-tutorials extends Component
+class Portfolio extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class video-tutorials extends Component
      */
     public function render()
     {
-        return view('components.home.video-tutorials');
+        return view('components.home.portfolio');
     }
 }

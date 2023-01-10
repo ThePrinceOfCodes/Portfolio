@@ -1,3 +1,3 @@
 <div>
-    <!-- Waste no more time arguing what a good man should be, be one. - Marcus Aurelius -->
+    <!-- Happiness is not something readymade. It comes from your own actions. - Dalai Lama -->
 </div>

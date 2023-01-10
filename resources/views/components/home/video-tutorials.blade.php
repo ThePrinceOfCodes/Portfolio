@@ -1,3 +1,3 @@
 <div>
-    <!-- You must be the change you wish to see in the world. - Mahatma Gandhi -->
+    <!-- The biggest battle is the war against ignorance. - Mustafa Kemal Atatürk -->
 </div>

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\View\Components\home;
+namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class portfolio extends Component
+class ButtonLink extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class portfolio extends Component
      */
     public function render()
     {
-        return view('components.home.portfolio');
+        return view('components.button-link');
     }
 }
