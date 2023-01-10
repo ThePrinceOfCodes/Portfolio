@@ -3,6 +3,7 @@
 namespace App\View\Components;
 
 use Illuminate\View\Component;
+use function view;
 
 class ButtonLink extends Component
 {
@@ -11,7 +12,7 @@ class ButtonLink extends Component
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(public string $href, public string $variant = 'primary', public string $target = '_self')
     {
         //
     }
