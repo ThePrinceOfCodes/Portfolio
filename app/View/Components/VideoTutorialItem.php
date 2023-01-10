@@ -11,7 +11,7 @@ class VideoTutorialItem extends Component
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(public string $videoId, public string $title, public string $description)
     {
         //
     }
